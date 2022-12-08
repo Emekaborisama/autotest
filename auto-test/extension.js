@@ -3,7 +3,7 @@
 const vscode = require('vscode');
 
 // This method is called when your extension is activated
-// Your extension is activated the very first time the command is executed
+/// Your extension is activated the very first time the command is executed
 
 /**
  * @param {vscode.ExtensionContext} context
@@ -14,7 +14,7 @@ function activate(context) {
 	// This line of code will only be executed once when your extension is activated
 	console.log('Congratulations, your extension "auto-test" is now active!');
 
-	// The command has been defined in the package.json file
+	// The command has been defined in the packagfe.json file
 	// Now provide the implementation of the command with  registerCommand
 	// The commandId parameter must match the command field in package.json
 	let disposable = vscode.commands.registerCommand('auto-test.helloWorld', function () {
